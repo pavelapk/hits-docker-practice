@@ -1,13 +1,12 @@
 package main
 
 import (
-	"go-app/controllers"
 	"fmt"
 	"github.com/gorilla/mux"
 	log "github.com/sirupsen/logrus"
+	"go-app/controllers"
 	"net/http"
 )
-
 
 var LogPath = func(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {

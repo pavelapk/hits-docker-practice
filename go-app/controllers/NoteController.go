@@ -1,12 +1,12 @@
 package controllers
 
 import (
-	"go-app/db"
-	"go-app/models"
-	u "go-app/utils"
 	"encoding/json"
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
+	"go-app/db"
+	"go-app/models"
+	u "go-app/utils"
 	"net/http"
 )
 
